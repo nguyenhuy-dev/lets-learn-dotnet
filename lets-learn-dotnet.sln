@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ndir", "stream-file\ndir\nd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncopy", "stream-file\ncopy\ncopy.csproj", "{2892F12A-986E-465C-8A1F-558FF3D79457}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nfind", "nfind", "{A2A37C8C-37DE-4279-A742-734E09D89A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFind", "nfind\NFind\NFind.csproj", "{2892F12A-986E-465C-8A1F-558FF3D79417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFindTests", "nfind\NFindTests\NFindTests.csproj", "{2892F12A-986E-465C-8A1F-558FF3D79427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,19 +25,27 @@ Global
 		{2892F12A-986E-465C-8A1F-558FF3D79437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D79437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D79437}.Release|Any CPU.Build.0 = Release|Any CPU
-
 		{2892F12A-986E-465C-8A1F-558FF3D79457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D79457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D79457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D79457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2892F12A-986E-465C-8A1F-558FF3D79427}.Release|Any CPU.Build.0 = Release|Any CPU	
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2892F12A-986E-465C-8A1F-558FF3D79437} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-
 		{2892F12A-986E-465C-8A1F-558FF3D79457} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2892F12A-986E-465C-8A1F-558FF3D79417} = {A2A37C8C-37DE-4279-A742-734E09D89A35}
+		{2892F12A-986E-465C-8A1F-558FF3D79427} = {A2A37C8C-37DE-4279-A742-734E09D89A35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2823A3C-C8CE-4546-8EC0-D1EF2B728413}
