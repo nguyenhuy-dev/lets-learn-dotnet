@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DBExporter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Server=DESKTOP-CVSDQVV\\HUYNGUYEN;Database=BookStore;User Id=sa;Password=12345;Trusted_Connection=True;Trust Server Certificate=True;\" \"select * from Books\" -f:BookList -adt -compress"
+    }
+  }
+}
