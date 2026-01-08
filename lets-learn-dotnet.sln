@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11312.210
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stream-file", "stream-file", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -62,6 +62,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatProtocol", "client-server-socket\ChatProtocol\ChatProtocol.csproj", "{2892F12A-986E-465C-8A1F-558FF3D794B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "client-server-socket\ChatServer\ChatServer.csproj", "{2892F12A-986E-465C-8A1F-558FF3D794B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "delegate-inside-out", "delegate-inside-out", "{E1E8320C-A7BE-487F-839B-0C7310114CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateIntro", "delegate-inside-out\DelegateIntro\DelegateIntro.csproj", "{65D00E0A-A854-47DB-8017-7F547A20FB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveStory", "delegate-inside-out\LoveStory\LoveStory.csproj", "{07B71EBB-56B6-478E-A285-E36A55D683EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousFunc", "delegate-inside-out\AnonymousFunc\AnonymousFunc.csproj", "{5611F877-B31B-4F6B-B67E-8C93622F4FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "delegate-inside-out\LambdaExpression\LambdaExpression.csproj", "{7AC03F82-62D3-4F68-89F4-AE764159DA9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +171,22 @@ Global
 		{2892F12A-986E-465C-8A1F-558FF3D794B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D794B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2892F12A-986E-465C-8A1F-558FF3D794B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D00E0A-A854-47DB-8017-7F547A20FB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D00E0A-A854-47DB-8017-7F547A20FB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D00E0A-A854-47DB-8017-7F547A20FB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D00E0A-A854-47DB-8017-7F547A20FB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B71EBB-56B6-478E-A285-E36A55D683EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B71EBB-56B6-478E-A285-E36A55D683EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B71EBB-56B6-478E-A285-E36A55D683EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B71EBB-56B6-478E-A285-E36A55D683EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5611F877-B31B-4F6B-B67E-8C93622F4FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5611F877-B31B-4F6B-B67E-8C93622F4FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5611F877-B31B-4F6B-B67E-8C93622F4FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5611F877-B31B-4F6B-B67E-8C93622F4FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC03F82-62D3-4F68-89F4-AE764159DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC03F82-62D3-4F68-89F4-AE764159DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC03F82-62D3-4F68-89F4-AE764159DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC03F82-62D3-4F68-89F4-AE764159DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +216,10 @@ Global
 		{2892F12A-986E-465C-8A1F-558FF3D794B7} = {02EA681E-C7D8-13C7-8484-4AC65E1B57A3}
 		{2892F12A-986E-465C-8A1F-558FF3D794B8} = {02EA681E-C7D8-13C7-8484-4AC65E1B57A3}
 		{2892F12A-986E-465C-8A1F-558FF3D794B9} = {02EA681E-C7D8-13C7-8484-4AC65E1B57A3}
+		{65D00E0A-A854-47DB-8017-7F547A20FB74} = {E1E8320C-A7BE-487F-839B-0C7310114CD0}
+		{07B71EBB-56B6-478E-A285-E36A55D683EA} = {E1E8320C-A7BE-487F-839B-0C7310114CD0}
+		{5611F877-B31B-4F6B-B67E-8C93622F4FB6} = {E1E8320C-A7BE-487F-839B-0C7310114CD0}
+		{7AC03F82-62D3-4F68-89F4-AE764159DA9B} = {E1E8320C-A7BE-487F-839B-0C7310114CD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2823A3C-C8CE-4546-8EC0-D1EF2B728413}
